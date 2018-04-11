@@ -1,54 +1,112 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700|Patua+One:100,200,300,400,500,600,700,800,900|Poiret+One:100,200,300,400,500,600,700,800,900|Exo:100,200,300,400,500,600,700');
 
+
+/*------------------------------------------------------------------------------HEADER LINKS,    START*/
 .links {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
-    font-size: 23px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
     margin-top: 25px;
     text-transform: uppercase;
     text-align: center;
+    color: black;
 }
 
+.links:hover {
+    text-decoration: none;
+    color: #ec822e;
+}
+/*----------------------------------------------------------------------------HEADER LINKS,    FINISH*/
 
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------TEN 7 TITLE/HOME PAGE LINK,    START*/
 .ten7 {
     text-align: center;
-    font-family: "Poiret One", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 160px;
     text-transform: uppercase;
     font-weight: 600;
     margin-top: 50px;
     margin-bottom: 20px;
     letter-spacing: 10px;
+    color: black;
 }
+    
+.ten7:hover{
+    color: #ec822e;
+}
+/*----------------------------------------------------------------TEN 7 TITLE/HOME PAGE LINK,    FINISH*/
 
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------SUBHEADING,    START*/
 .subheading {
     text-align: center;
     text-transform: uppercase;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 28px;
+    color: #555555;
 }
 
+.hr1{
+    width: 705px;
+    height: 4px;
+    background-color: black;
+}
+
+.hr2{
+    width: 705px;
+    height: 4px;
+    background-color: black;
+}
+
+/*-------------------------------------------------------------------------------------SUBHEADING,    FINISH*/
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------FORM,    START*/
 .center-form {
     max-width: 70%;
     margin: 0 auto;
 }
 
-.hr1 {
-    
-}
-
-.hr2 {
-    
-}
-
 #submit-button {
     margin: 0 auto;
-    
 }
+/*-----------------------------------------------------------------------------------FORM,    FINISH*/
 
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------FOOTER,    START*/
 .social-links {
-    font-size: 30px;
-    margin: 0 auto;
+    font-size: 26px;
     text-align: center;
     padding-bottom: 40px;
 }
+/*-------------------------------------------------------------------------------------FOOTER,    FINISH*/
