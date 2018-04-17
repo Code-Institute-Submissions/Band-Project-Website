@@ -16,11 +16,74 @@
     text-decoration: none;
     color: #ec822e;
 }
+
+.signUpbtn {
+    padding: 0;
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+
 /*----------------------------------------------------------------------------HEADER LINKS,    FINISH*/
 
 
 
 
+/*------------------------------------------------------------------------------MODAL,    START*/
+
+.modal-header {
+    background-color: #555555;
+    border-bottom-color: #ec822e;
+}
+
+.modal-body {
+    background-color: #555555;
+}
+
+#modalLabel {
+    font-family: "Poiret One", sans-serif;
+    /* text-transform: uppercase; */
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+}
+
+.close {
+    color: #fff;
+    text-shadow: none;
+}
+
+.close:hover {
+    color: #ec822e;
+    text-shadow: none;
+}
+
+.signUpInfo {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+
+.modal-footer {
+    background-color: #555555;
+    border-top-color: #ec822e;
+}
+
+.btn-primary {
+    border-color: #ec822e;
+}
+
+.btn-primary:hover {
+    border-color: #ec822e;
+}
+
+
+/*------------------------------------------------------------------------------MODAL,    FINISH*/
 
 
 
@@ -54,21 +117,22 @@
 
 /*-------------------------------------------------------------------------------------SUBHEADING,    START*/
 .subheading {
+    font-family: "Poiret One", sans-serif;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 28px;
     color: #555555;
 }
 
 .hr1{
-    width: 705px;
+    width: 75%;
     height: 4px;
     background-color: black;
 }
 
 .hr2{
-    width: 705px;
+    width: 75%;
     height: 4px;
     background-color: black;
 }
@@ -90,9 +154,17 @@
     margin: 0 auto;
 }
 
-#submit-button {
+.btn {
     margin: 0 auto;
+    background-color: #ec822e;
+    color: #fafafa;
 }
+
+.btn:hover {
+    color: #fff;
+    background-color: #FF5B25;
+}
+
 /*-----------------------------------------------------------------------------------FORM,    FINISH*/
 
 
@@ -105,8 +177,22 @@
 
 /*-------------------------------------------------------------------------------------FOOTER,    START*/
 .social-links {
+    width: 100%;
     font-size: 26px;
     text-align: center;
     padding-bottom: 40px;
+}
+
+.fa-facebook:before {
+    content: "\f09a";
+    color: #3a5b94;
+}
+
+.fa-twitter:before {
+    color: #00a3ec;
+}
+
+.fa-youtube:before {
+    color: #f31325;
 }
 /*-------------------------------------------------------------------------------------FOOTER,    FINISH*/
