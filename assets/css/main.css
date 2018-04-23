@@ -101,7 +101,7 @@ body {
 
 
 /*----------------------------------------------------------------TEN 7 TITLE/HOME PAGE LINK,    START*/
-.ten7 {
+.TheMonkees {
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 160px;
@@ -113,7 +113,7 @@ body {
     color: black;
 }
     
-.ten7:hover{
+.TheMonkees:hover{
     color: #ec822e;
 }
 /*----------------------------------------------------------------TEN 7 TITLE/HOME PAGE LINK,    FINISH*/
