@@ -2,7 +2,7 @@
 
 
 body {
-    background: url('../images/walking-on-cars-3.jpg') no-repeat center center fixed; 
+    background: url('../images/TheMonkeesBackground2.jpeg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,7 +20,7 @@ body {
     margin-top: 25px;
     text-transform: uppercase;
     text-align: center;
-    color: black;
+    color: #7f7f7f;
 }
 
 .links:hover {
@@ -100,7 +100,7 @@ body {
 
 
 
-/*----------------------------------------------------------------TEN 7 TITLE/HOME PAGE LINK,    START*/
+/*----------------------------------------------------------------THE MONKESS TITLE/HOME PAGE LINK,    START*/
 .TheMonkees {
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -110,20 +110,25 @@ body {
     margin-top: 50px;
     margin-bottom: 20px;
     letter-spacing: 10px;
-    color: black;
+    color: #e5e4e9;
+    
 }
     
 .TheMonkees:hover{
     color: #ec822e;
 }
-/*----------------------------------------------------------------TEN 7 TITLE/HOME PAGE LINK,    FINISH*/
+/*----------------------------------------------------------------THE MONKEES TITLE/HOME PAGE LINK,    FINISH*/
 
 
+/*---------------------------------------------------------------------GALLERY,     START*/
+
+.imageWidth{
+    max-width: 100%;
+    height: auto;
+}
 
 
-
-
-
+/*---------------------------------------------------------------------GALLERY,     FINISH*/
 
 
 /*-------------------------------------------------------------------------------------SUBHEADING,    START*/
@@ -133,19 +138,19 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 28px;
-    color: #555555;
+    color: #fff;
 }
 
 .hr1{
     width: 75%;
     height: 4px;
-    background-color: black;
+    background-color: #ec822e;
 }
 
 .hr2{
     width: 75%;
     height: 4px;
-    background-color: black;
+    background-color: #ec822e;
 }
 
 /*-------------------------------------------------------------------------------------SUBHEADING,    FINISH*/
