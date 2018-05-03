@@ -28,6 +28,10 @@ body {
     color: #ec822e;
 }
 
+.links:active {
+    color: #f64831;
+}
+
 .signUpbtn {
     padding: 0;
     background-color: #fff;
