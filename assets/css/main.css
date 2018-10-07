@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700|Patua+One:100,200,300,400,500,600,700,800,900|Poiret+One:100,200,300,400,500,600,700,800,900|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:|Poiret+One:100,200,300,400,500,600,700,800,900');
 
 
 body {
@@ -17,33 +17,76 @@ body {
 
 /*-----------------------------HEADER LINKS (START)------------------------------*/
 
+/*.navDefault {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    background-color: black;*/
+/*}*/
+
+/*.navDropdown {*/
+/*    border: none;*/
+/*    background-color: #0997d3;*/
+/*    width: 150px;*/
+/*    height: 50px;*/
+/*    color: #fff;*/
+/*    text-transform: uppercase;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.dropdownMenu {*/
+/*    list-style: none;*/
+/*    padding-left: 30px;*/
+/*    width: 150px;*/
+/*    position: absolute;*/
+/*    -webkit-box-shadow: 10px 10px 78px 1px rgba(176,75,7,0.89);*/
+/*    -moz-box-shadow: 10px 10px 78px 1px rgba(176,75,7,0.89);*/
+/*    box-shadow: 10px 10px 78px 1px rgba(176,75,7,0.89);*/
+/*}*/
+
+/*.dropdown:hover .dropdown{*/
+/*    transform: translateY(0);*/
+/*}*/
+
 .links {
     font-family: "Poiret One", sans-serif;
     font-weight: 800;
     font-size: 25px;
-    margin-top: 25px;
     text-transform: uppercase;
     text-align: center;
     color: #7f7f7f;
     transition: all .4s ease-in-out;
+    padding-top: 50px;
+    text-decoration: none;
 }
 
+
 .links:hover {
+    transform: scale(1.05);
     text-decoration: none;
     color: #ec822e;
     transition: all .4s ease-in-out;
-    transform: scale(1.05);
 }
+
 
 .active {
     color: #ec822e;
 }
 
 .signUpbtn {
-    padding: 0;
     cursor: pointer;
-    border: none;
     background: none;
+    border: none;
+    color: #7f7f7f;
+    transition: all .4s ease-in-out;
+}
+
+.signUpbtn:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+    color: #ec822e;
+    transition: all .4s ease-in-out;
 }
 
 /*-----------------------------HEADER LINKS (END)------------------------------*/
@@ -69,9 +112,8 @@ body {
     background-color: #555555;
 }
 
-#modalLabel {
+.modalLabel {
     font-family: "Poiret One", sans-serif;
-    /* text-transform: uppercase; */
     color: #fff;
     letter-spacing: 1.5px;
     font-size: 25px;
@@ -99,7 +141,6 @@ body {
 
 .modal-footer {
     background-color: #555555;
-    border-top-color: #ec822e;
 }
 
 .btn-primary {
@@ -110,7 +151,7 @@ body {
     border-color: #ec822e;
 }
 
-/*-----------------------------MODEL (START)------------------------------*/
+/*-----------------------------MODEL (END)------------------------------*/
 
 
 
@@ -124,22 +165,31 @@ body {
 
 /*-----------------------------THE MONKEES TITLE/HOME PAGE LINK (START)------------------------------*/
 
-.Ten7 {
+.theMonkees:hover {
+    color: #ec822e;
+    transition: all .4s ease-in-out;
+    transform: scale(1.01);
+    text-decoration: none;
+}
+
+.theMonkees {
     text-align: center;
-    font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     font-weight: 600;
-    margin-top: 50px;
-    margin-bottom: 20px;
     letter-spacing: 10px;
-    color: #e5e4e9;
+    color: white;
     transition: all .4s ease-in-out;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    display: block;
 }
 
 
-.Ten7:hover{
-    color: #ec822e;
+
+.position{
+    text-align: center;
 }
+
 
 /*-----------------------------THE MONKEES TITLE/HOME PAGE LINK (FINISH)------------------------------*/
 
@@ -154,6 +204,10 @@ body {
 
 /*-----------------------------GALLERY (START)------------------------------*/
 
+.containerForPictures {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
 
 .img1 {
     transition: all ease-in-out .5s;
@@ -165,6 +219,10 @@ body {
     transform: scale(1.1);
     cursor: pointer;
 }
+
+
+/*put all below styles below in one class; not 3*/
+
 
 .row1 {
     padding-bottom: 50px;
@@ -180,7 +238,7 @@ body {
 
 
 
-/*-----------------------------GALLERY (START)------------------------------*/
+/*-----------------------------GALLERY (FINISH)------------------------------*/
 
 
 
@@ -211,6 +269,8 @@ body {
 
 .audioPicture {
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
 }
 
 .audioPicSize {
@@ -265,6 +325,8 @@ body {
 .center-form {
     max-width: 70%;
     margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .btn {
@@ -278,7 +340,7 @@ body {
     background-color: #FF5B25;
 }
 
-/*-----------------------------SUBHEADING (END)------------------------------*/
+/*-----------------------------FORM (END)------------------------------*/
 
 
 
@@ -296,6 +358,8 @@ body {
     font-size: 26px;
     text-align: center;
     padding-bottom: 40px;
+    padding-top: 50px;
+    list-style: none;
 }
 
 .social-links {
@@ -329,23 +393,27 @@ body {
 
 /*-----------------------------MEDIA QUERIES (START)-----------------------------*/
 
+@media (min-width: 320px), (max-width: 544px) {
+    .social-links {padding: 10px; width: 30%;}
+}
+
 @media (min-width: 320px) {  
-  .Ten7 {font-size: 48px;}
+  .theMonkees {font-size: 48px;}
   .subheading {font-size: 16px;}
   .hr {width: 54%;}
   .img1{height: 200px; width: 320px;}
 }
 
 @media (min-width: 544px) {  
-  .Ten7 {font-size: 80px;}
+  .theMonkees {font-size: 80px;}
   .subheading {font-size: 20px;}
   .hr {width: 54%;}
   .img1{height: 200px; width: 210px;}
 }
- 
+
 
 @media (min-width: 768px) {  
-  .Ten7 {font-size: 100px;} 
+  .theMonkees {font-size: 100px;} 
   .subheading {font-size: 24px;}
   .hr {width: 54%;}
   .img1{height: 225px; width: 250px;}
@@ -353,14 +421,14 @@ body {
  
 
 @media (min-width: 992px) { 
-  .Ten7 {font-size: 160px;}
+  .theMonkees {font-size: 160px;}
   .subheading {font-size: 28px;}
   .img1{height: 250px; width: 300px;}
 }
  
 
 @media (min-width: 1200px) {  
-  .Ten7 {font-size: 160px;}
+  .theMonkees {font-size: 160px;}
   .subheading {font-size: 28px;}
   .img1{height: 250px; width: 300px;}
 }
