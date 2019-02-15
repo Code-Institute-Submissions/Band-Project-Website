@@ -17,57 +17,43 @@ body {
 
 /*-----------------------------HEADER LINKS (START)------------------------------*/
 
-/*.navDefault {*/
-/*    position: fixed;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    background-color: black;*/
-/*}*/
-
-/*.navDropdown {*/
-/*    border: none;*/
-/*    background-color: #0997d3;*/
-/*    width: 150px;*/
-/*    height: 50px;*/
-/*    color: #fff;*/
-/*    text-transform: uppercase;*/
-/*    cursor: pointer;*/
-/*}*/
-
-/*.dropdownMenu {*/
-/*    list-style: none;*/
-/*    padding-left: 30px;*/
-/*    width: 150px;*/
-/*    position: absolute;*/
-/*    -webkit-box-shadow: 10px 10px 78px 1px rgba(176,75,7,0.89);*/
-/*    -moz-box-shadow: 10px 10px 78px 1px rgba(176,75,7,0.89);*/
-/*    box-shadow: 10px 10px 78px 1px rgba(176,75,7,0.89);*/
-/*}*/
-
-/*.dropdown:hover .dropdown{*/
-/*    transform: translateY(0);*/
-/*}*/
-
-.links {
-    font-family: "Poiret One", sans-serif;
-    font-weight: 800;
-    font-size: 25px;
+.nav-colour{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
     text-transform: uppercase;
-    text-align: center;
-    color: #7f7f7f;
-    transition: all .4s ease-in-out;
-    padding-top: 50px;
-    text-decoration: none;
+    letter-spacing: 8px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.navbar-toggler{
+    width: 50px;
+    height: 40px;
+    border-color: rgb(227,227,227, 0.8);
+    background-color: rgb(221,221,221, 0.0);
+}
+
+.navbar-toggler:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+
+.navbar-toggler:active {
+   outline: none !important;
+   box-shadow: none;
 }
 
 
-.links:hover {
-    transform: scale(1.05);
-    text-decoration: none;
+.nav-colour:hover{
     color: #ec822e;
-    transition: all .4s ease-in-out;
+    transition: all .5s ease-in-out;
 }
+
+
 
 
 .active {
@@ -75,18 +61,25 @@ body {
 }
 
 .signUpbtn {
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: #7f7f7f;
-    transition: all .4s ease-in-out;
+    color: rgb(227, 227, 227, 0.8);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-color: transparent;
+    background-color: transparent;
+    margin-left: 0;
 }
 
-.signUpbtn:hover {
-    transform: scale(1.05);
-    text-decoration: none;
+.signUpbtn:hover{
     color: #ec822e;
-    transition: all .4s ease-in-out;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.signUpbtn:focus{
+    outline: none !important;
+    box-shadow: none;
 }
 
 /*-----------------------------HEADER LINKS (END)------------------------------*/
@@ -127,6 +120,12 @@ body {
 .close:hover {
     color: #ec822e;
     text-shadow: none;
+    transition: all .2s ease-in-out;
+}
+
+.close:focus{
+    outline: none !important;
+    box-shadow: none;
 }
 
 .signUpInfo {
@@ -135,9 +134,13 @@ body {
     font-weight: bold;
     letter-spacing: 1px;
     padding-top: 20px;
-    color: #fff;
+    color: white;
 }
 
+.modal-title {
+    color: white;
+    letter-spacing: 2px;
+}
 
 .modal-footer {
     background-color: #555555;
@@ -149,6 +152,11 @@ body {
 
 .btn-primary:hover {
     border-color: #ec822e;
+}
+
+.btn-primary:focus {
+    outline: none !important;
+    box-shadow: none;
 }
 
 /*-----------------------------MODEL (END)------------------------------*/
@@ -253,6 +261,18 @@ body {
 .video {
     padding-bottom: 120px;
     padding-top: 60px;
+}
+
+.video-space {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.videoDivider {
+    height: 11px;
+    width: 12px;
+    background-color: white;
+    border-radius: 50%;
 }
 
 /*-----------------------------VIDEO (END)------------------------------*/
@@ -383,6 +403,14 @@ body {
     color: #f31325;
 }
 
+.fa-bars{
+    color: rgb(227,227,227, 0.8);
+    border-color: rgb(227,227,227, 0.8);
+    width: 100%;
+    font-size: 25px;
+}
+
+
 /*-----------------------------FOOTER (END)------------------------------*/
 
 
@@ -397,6 +425,10 @@ body {
     .social-links {padding: 10px; width: 30%;}
 }
 
+@media (max-width: 480px) {
+    .nav-link {font-size: 14px; letter-spacing: 10px;}
+}
+
 @media (min-width: 320px) {  
   .theMonkees {font-size: 48px;}
   .subheading {font-size: 16px;}
@@ -404,7 +436,7 @@ body {
   .img1{height: 200px; width: 320px;}
 }
 
-@media (min-width: 544px) {  
+@media (min-width: 544px) {
   .theMonkees {font-size: 80px;}
   .subheading {font-size: 20px;}
   .hr {width: 54%;}
@@ -421,14 +453,14 @@ body {
  
 
 @media (min-width: 992px) { 
-  .theMonkees {font-size: 160px;}
+  .theMonkees {font-size: 110px;}
   .subheading {font-size: 28px;}
   .img1{height: 250px; width: 300px;}
 }
  
 
 @media (min-width: 1200px) {  
-  .theMonkees {font-size: 160px;}
+  .theMonkees {font-size: 110px;}
   .subheading {font-size: 28px;}
   .img1{height: 250px; width: 300px;}
 }
