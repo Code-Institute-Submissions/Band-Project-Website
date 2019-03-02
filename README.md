@@ -20,7 +20,7 @@ The text provided highlights the main points and grabs the user's attention thro
 
 The website is used for audiences and fans to be able to effectively and efficiently book the band for their wedding and Christmas parties by filling in a simple booking form. There is the option to sign up for any new material as it becomes available through the Sign Up option in the navigation bar.
 
-To be able to ensure I was certain that my outcome reached this level I brainstormed my ideas (images for these mockups can be found in a directory within the project code).
+To be able to ensure I was certain that my outcome reached this level I brainstormed my ideas (images for these mockups can be found in a directory within the project code - the mockup for Videos displays only x1 video, during development I decided 1 was not enough and added 3.
 
 
 ## Features
@@ -91,7 +91,7 @@ Throughout the project, I committed each ‘large’ section of work to Git. Any
 
 ### Content
 The background image and gallery images of the project was found on Google images, saved and copied into the project with some edits put in place. https://www.google.co.uk/search?q=the+monkees&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi-_f3PtvTdAhXLK8AKHbiQAjwQ_AUIDygC&biw=1280&bih=703
-The video was taken from YouTube: https://www.youtube.com/watch?v=xvqeSJlgaNk
+The videos were taken from YouTube: https://www.youtube.com/watch?v=xvqeSJlgaNk https://www.youtube.com/watch?v=WQ6LmrP3vK8 https://www.youtube.com/watch?v=sUzs5dlLrm0
 The audio was taken from here: https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/audio
 
 ## Acknowledgements
